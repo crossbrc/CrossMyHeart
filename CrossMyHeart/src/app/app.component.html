@@ -1,14 +1,17 @@
-<header>
-  <div class="tab">
-    <button class="tablinks" [routerLink]="['']">Home</button>
-    <button class="tablinks" [routerLink]="['registry']">Registry</button>
-    <button class="tablinks" [routerLink]="['aboutbg']">About the Bride and Groom</button>
-    <button class="tablinks" [routerLink]="['aboutbp']">About the Bridal Party</button>
-    <button class="tablinks" [routerLink]="['songreq']">Song Requests</button>
-    <button class="tablinks" [routerLink]="['faq']">FAQ</button>
-    <button class="tablinks" [routerLink]="['dancing']">Dancing Tips</button>
-  </div>
-</header>
+
+<div class="sidenav">
+  <a href="#" routerLink="/">Home</a>
+  <a href="#" routerLink="/registry">Registry</a>
+  <a href="#" routerLink="/aboutbg">About the Bride and Groom</a>
+  <a href="#" routerLink="/aboutbp">About the Bridal Party</a>
+  <a href="#" routerLink="/songreq">Song Requests</a>
+  <a href="#" routerLink="/faq">FAQ</a>
+  <a href="#" routerLink="/dancing">Dancing Tutorials</a>
+</div>
+
+<div class="main">
+  <h1>Cross My Heart</h1>
+</div>
 
 <div class="container">
   <router-outlet></router-outlet>

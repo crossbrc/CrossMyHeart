@@ -1,0 +1,38 @@
+.col {
+  display: table-cell;
+  float: left;
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
+.row {
+  content: "";
+  clear: both;
+  display: table;
+  width: auto;
+}
+
+.vertText{
+    padding-bottom: 40%;
+    padding-top: 40%;
+    text-align: center;
+}
+
+img{
+    display: block;
+    height: 300px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerText{
+    text-align: center;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
