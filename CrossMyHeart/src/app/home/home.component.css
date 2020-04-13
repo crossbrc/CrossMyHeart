@@ -1,24 +1,3 @@
-.col {
-  display: table-cell;
-  float: left;
-  width: auto;
-  height: auto;
-  padding: 5px;
-}
-
-.row {
-  content: "";
-  clear: both;
-  display: table;
-  width: auto;
-}
-
-.vertText{
-    padding-bottom: 40%;
-    padding-top: 40%;
-    text-align: center;
-}
-
 img{
     display: block;
     height: 300px;
@@ -31,8 +10,30 @@ img{
     text-align: center;
 }
 
+body {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  padding: 0px;
+  top: 175px;
+  left: 0;
+  background-image: url('../../assets/images/BrianCSmall.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 /* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+.mainHome {
+  top:200px;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+table{
+    border: 0;
+    text-align: center;
+    width: 500px;
+    height: 100%;
 }

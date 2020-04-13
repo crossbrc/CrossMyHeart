@@ -1,17 +1,29 @@
+<!--<div class="sidenav">
+  <a href="#" routerlink="/">home</a>
+  <a href="#" routerlink="/registry">registry</a>
+  <a href="#" routerlink="/aboutbg">about the bride and groom</a>
+  <a href="#" routerlink="/aboutbp">about the bridal party</a>
+  <a href="#" routerlink="/songreq">song requests</a>
+  <a href="#" routerlink="/faq">faq</a>
+  <a href="#" routerlink="/dancing">dancing tutorials</a>
+</div>-->
+<header>
+  <div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+    <a href="#" routerlink="/">Home</a>
+    <a href="#" routerlink="/registry">Registry</a>
+    <a href="#" routerlink="/aboutbg">About the bride and groom</a>
+    <a href="#" routerlink="/aboutbp">About the bridal party</a>
+    <a href="#" routerlink="/songreq">Song requests</a>
+    <a href="#" routerlink="/faq">FAQ</a>
+    <a href="#" routerlink="/dancing">Dancing Tutorials</a>
+  </div>
 
-<div class="sidenav">
-  <a href="#" routerLink="/">Home</a>
-  <a href="#" routerLink="/registry">Registry</a>
-  <a href="#" routerLink="/aboutbg">About the Bride and Groom</a>
-  <a href="#" routerLink="/aboutbp">About the Bridal Party</a>
-  <a href="#" routerLink="/songreq">Song Requests</a>
-  <a href="#" routerLink="/faq">FAQ</a>
-  <a href="#" routerLink="/dancing">Dancing Tutorials</a>
-</div>
-
-<div class="main">
-  <h1>Cross My Heart</h1>
-</div>
+  <div class="main">
+    <button class="openbtn" (click)="openNav()">&#9776;</button>
+    <h1>Cross My Heart</h1>
+  </div>
+</header>
 
 <div class="container">
   <router-outlet></router-outlet>

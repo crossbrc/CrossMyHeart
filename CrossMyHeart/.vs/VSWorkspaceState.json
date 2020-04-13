@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\aboutbg",
+    "\\src\\app\\aboutbp",
+    "\\src\\app\\dancing",
+    "\\src\\app\\registry",
+    "\\src\\app\\songreq",
+    "\\src\\assets",
+    "\\src\\assets\\fonts"
+  ],
+  "SelectedNode": "\\src\\app\\app.component.ts",
+  "PreviewInSolutionExplorer": false
+}
